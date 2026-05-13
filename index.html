@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stars Baby | Gallery</title>
+    <style>
+        body { background: radial-gradient(circle, #000428, #004e92); color: white; font-family: 'Comic Sans MS', cursive, sans-serif; margin: 0; padding: 20px; display: flex; flex-direction: column; align-items: center; }
+        
+        /* Main Profile Photo */
+        .star-container { width: 180px; height: 180px; border: 5px solid #ffd700; border-radius: 50%; overflow: hidden; box-shadow: 0 0 25px #ffd700; margin-bottom: 15px; }
+        .star-container img { width: 100%; height: 100%; object-fit: cover; }
+
+        h1 { color: #ffd700; text-shadow: 0 0 10px #fff; margin: 5px 0; font-size: 32px; }
+        .blessing { font-size: 18px; margin-bottom: 30px; opacity: 0.9; }
+
+        /* Gallery Grid for 2 Images */
+        .photo-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; width: 90%; max-width: 400px; }
+        .grid-item { border: 2px solid #ffd700; border-radius: 12px; overflow: hidden; background: #000; box-shadow: 0 5px 15px rgba(0,0,0,0.5); }
+        .grid-item img { width: 100%; height: 150px; display: block; object-fit: cover; }
+
+        footer { margin-top: 40px; font-size: 12px; opacity: 0.6; letter-spacing: 1px; }
+    </style>
+</head>
+<body>
+    <!-- Main Photo -->
+    <div class="star-container">
+        <img src="baby.jpg" alt="Main Baby">
+    </div>
+    
+    <h1>STARS BABY</h1>
+    <div class="blessing">✨ Our Little Angel ✨</div>
+
+    <!-- Gallery with 2 Photos -->
+    <div class="photo-grid">
+        <div class="grid-item"><img src="baby2.jpg" alt="Baby Moment 1"></div>
+        <div class="grid-item"><img src="baby3.jpg" alt="Baby Moment 2"></div>
+    </div>
+
+    <footer>MADE WITH LOVE BY GAYATHRI</footer>
+</body>
+</html>
